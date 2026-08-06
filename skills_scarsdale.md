@@ -5,7 +5,7 @@ Model Period Update
 Update one period only. Everything else stays untouched.
 
 Rules
-Edit only the target period column. Never touch other years, quarters, or forecasts.
+Edit only the target period column and keep the formatting same as before or consistent. Never touch other years, quarters, or forecasts.
 Never overwrite a formula with a hardcode unless user approves.
 Max 3 web searches, official sources only (e.g. SEC EDGAR, company IR page).
 Confirm data source with user before any edit.
