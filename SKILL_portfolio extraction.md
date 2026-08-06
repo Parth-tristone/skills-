@@ -42,7 +42,6 @@ Value/ISIN header row; UBS: long multi-column PDF "Statement of Assets").
 ## Verify before shipping
 
 - Every portfolio reconciles to its statement total, or the variance is explained.
-- Header row is row 2; data starts row 3; column A empty; exactly columns B–N populated.
 - Header strings match byte-for-byte, trailing spaces intact.
 - No subtotal or total rows present.
 - Loans/short options negative in both numeric columns; Loans rows blank in L, M, N.
