@@ -36,7 +36,7 @@ Value/ISIN header row; UBS: long multi-column PDF "Statement of Assets").
 | J | `Value in USD` | Market value as stated |
 | K | `Asset Class ` | Internal asset-class label (trailing space in header) |
 | L | `Account Category` | From the portfolio reference table |
-| M | `Asset classification ` | From the portfolio reference table (trailing space in header) |
+| M | `Asset classification ` | From the portfolio reference table (trailing space in header ) |
 | N | `Type` | From the portfolio reference table |
 
 ## Verify before shipping
@@ -47,3 +47,4 @@ Value/ISIN header row; UBS: long multi-column PDF "Statement of Assets").
 - Loans/short options negative in both numeric columns; Loans rows blank in L, M, N.
 - Carried-forward rows identical to the prior file, and no stale JB/GS/UBS rows remain.
 - Exceptions list presented, not empty-by-omission.
+- Please find the "Asset Class", "Account Category", "Asset classification", "Type"" in the document itself don't leave them blank.
